@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AirFlow Apache Mini Clone</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="min-h-screen">
+  <header class="w-full h-30 py-6 px-10  flex items-center justify-between shadow-md">
+    <img class="h-16 mb-5  mr-10" src="./images/airflow_logo1.svg" alt="Logo AirFlow">
+    <ul class="w-full flex justify-start text-lg text-gray-700">
+      <li class="mr-3">Community</li>
+      <li class="mr-3">Meetups</li>
+      <li class="mr-3">Documentation</li>
+      <li class="mr-3">Use cases</li>
+      <li class="mr-3">Announcements</li>
+      <li class="mr-3">Blog</li>
+      <li class="mr-3">Ecosystem</li>
+    </ul>
+    <a class="px-8 py-3 text-lg text-white bg-primary rounded-md mr-8" href="#">Install</a>
+  </header>
+  <main class="">
+    <div class="w-full  flex flex-col justify-center items-center  pb-12">
+      <h1 class="text-6xl font-bold text-center text-gray-800">Apache AirFlow</h1>
+      <p class="mt-5 w-1/2 text-2xl text-center">Airflow is a platform created by the community to programmatically author, schedule and monitor workflows.</p>
+      <a class="mt-5 px-8 py-3 text-lg text-white bg-primary rounded-md mr-8" href="#">Install</a>
+    </div>
+    <!-- Principles -->
+    <section class="my-10" id="principles">
+      <h2 class="text-6xl text-center font-bold text-gray-600">Principles</h2>
+      <ul class="w-full flex flex-wrap justify-center items-center">
+        <!-- Priciple Item -->
+        <li class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 flex justify-center items-center flex-col">
+          <img class="m-auto rounded-md" src="https://dummyimage.com/105x105/343f53/343f53.png" alt="">
+          <h3 class="text-center font-bold text-4xl tex-t ">Scalable</h3>
+          <p class="sm:w-1/2 xl:w-full text-center text-md">Airflow has a modular architecture and uses a message queue to orchestrate an arbitrary number of workers. Airflow is ready to scale to infinity.</p>
+        </li>
+        <!-- Priciple Item -->
+        <li class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 flex justify-center items-center flex-col ">
+          <img class="m-auto rounded-md" src="https://dummyimage.com/105x105/343f53/343f53.png" alt="">
+          <h3 class="text-center font-bold text-4xl tex-t ">Dynamic</h3>
+          <p class="sm:w-1/2 xl:w-full text-center text-md">Airflow pipelines are configuration as code (Python), allowing for dynamic pipeline generation. This allows for writing code that instantiates pipelines dynamically.</p>
+        </li>
+        <!-- Priciple Item -->
+        <li class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 flex justify-center items-center flex-col">
+          <img class="m-auto rounded-md" src="https://dummyimage.com/105x105/343f53/343f53.png" alt="">
+          <h3 class="text-center font-bold text-4xl tex-t ">Extensible</h3>
+          <p class="sm:w-1/2 xl:w-full text-center text-md">Easily define your own operators, executors and extend the library so that it fits the level of abstraction that suits your environment.</p>
+        </li>
+        <!-- Priciple Item -->
+        <li class="w-full md:w-1/2 lg:w-1/3 xl:w-1/4 p-4 flex justify-center items-center flex-col">
+          <img class="m-auto rounded-md" src="https://dummyimage.com/105x105/343f53/343f53.png" alt="">
+          <h3 class="text-center font-bold text-4xl tex-t ">Elegant</h3>
+          <p class="sm:w-1/2 xl:w-full text-center text-md">Easily define your own operators, executors and extend the library so that it fits the level of abstraction that suits your environment.</p>
+        </li>
+      </ul>
+    </section>
+    <!-- Features -->
+    <section class="my-10" id="features">
+      <h3 class="text-6xl font-bold text-center text-gray-600">Features</h3>
+      <ul class="m-auto w-4/6 flex flex-col">
+        <li class="flex h-64  justify-center items-center">
+          <img class="w-1/6  rounded-xs" src="https://dummyimage.com/140x105/343f53/FFFFFF.png?text=Feature%20Demo" alt="">
+          <div class="w-4/6 ml-12">
+            <h4 class="text-5xl font-bold">Pure Python</h4>
+            <p class="text-xl">No more command-line or XML black-magic! Use all Python features to create your workflows including date time formats for scheduling tasks and loops to dynamically generate tasks. This allows you to build your workflows as complicated as you wish.</p>
+          </div>
+        </li>
+        <li class="flex h-64  justify-center items-center">
+          <img class="w-1/6  rounded-xs" src="https://dummyimage.com/140x105/343f53/FFFFFF.png?text=Feature%20Demo" alt="">
+          <div class="w-4/6 ml-12">
+            <h4 class="text-5xl font-bold">Useful UI</h4>
+            <p class="text-xl">Monitor, schedule and manage your workflows using web app. No need to learn old, cron-like interfaces. You always have an insight into the status of completed and ongoing tasks along with insight into the logs.</p>
+          </div>
+        </li>
+        <li class="flex h-64  justify-center items-center">
+          <img class="w-1/6  rounded-xs" src="https://dummyimage.com/140x105/343f53/FFFFFF.png?text=Feature%20Demo" alt="">
+          <div class="w-4/6 ml-12">
+            <h4 class="text-5xl font-bold">Plenty of integrations </h4>
+            <p class="text-xl">Airflow provides many plug-and-play operators that are ready to handle your task on Google Cloud Platform, Amazon Web Services, Microsoft Azure and many other services. This makes Airflow easy to use with your current infrastructure.</p>
+          </div>
+        </li>
+        <li class="flex h-64  justify-center items-center">
+          <img class="w-1/6  rounded-xs" src="https://dummyimage.com/140x105/343f53/FFFFFF.png?text=Feature%20Demo" alt="">
+          <div class="w-4/6 ml-12">
+            <h4 class="text-5xl font-bold">Easy to use </h4>
+            <p class="text-xl">Anyone with Python knowledge can deploy a workflow. Apache Airflow does not limit scopes of your pipelines. You can use it for building ML models, transferring data or managing your infrastructure.</p>
+          </div>
+        </li>
+        <li class="flex h-64  justify-center items-center">
+          <img class="w-1/6  rounded-xs" src="https://dummyimage.com/140x105/343f53/FFFFFF.png?text=Feature%20Demo" alt="">
+          <div class="w-4/6 ml-12">
+            <h4 class="text-5xl font-bold">Open source </h4>
+            <p class="text-xl">Wherever you want to share your improvement you can do this by opening a PR. It’s simple as that, no barriers, no prolonged procedures. Airflow has many active users who willingly share their experiences. Have any questions? Check our buzzing slack.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="w-full p-20 flex justify-center flex-col" id="integrations">
+      <h4 class="text-5xl font-bold text-center mb-10 text-gray-600">Integrations</h4>
+      <input class="w-2/6 rounded-sm p-2 border-2 pl-6 bg-white m-auto" type="text" placeholder="Search">
+      <div class="xl:w-5/6 mt-10 m-auto flex justify-around flex-wrap ">
+        <!-- Integrations -->
+        <div class="card w-64 h-64 rounded-md border-2 flex flex-col justify-end items-center my-4">
+          <h5 class="text-2xl font-bold text-gray-600">Cloud Vision</h5>
+        </div>
+        <div class="card w-64 h-64 rounded-md border-2 flex flex-col justify-end items-center  my-4">
+          <h5 class="text-2xl font-bold text-gray-600">Cloud SQL</h5>
+        </div>
+        <div class="card w-64 h-64 rounded-md border-2 flex flex-col justify-end items-center  my-4">
+          <h5 class="text-2xl font-bold text-gray-600">Machine Learning</h5>
+        </div>
+        <div class="card w-64 h-64 rounded-md border-2 flex flex-col justify-end items-center  my-4">
+          <h5 class="text-2xl font-bold text-gray-600">Space Spark</h5>
+        </div>
+        <div class="card w-64 h-64 rounded-md border-2 flex flex-col justify-end items-center my-4">
+          <h5 class="text-2xl font-bold text-gray-600">Cloud Vision</h5>
+        </div>
+        <div class="card w-64 h-64 rounded-md border-2 flex flex-col justify-end items-center  my-4">
+          <h5 class="text-2xl font-bold text-gray-600">Cloud Vision</h5>
+        </div>
+        <div class="card w-64 h-64 rounded-md border-2 flex flex-col justify-end items-center  my-4">
+          <h5 class="text-2xl font-bold text-gray-600">Cloud Vision</h5>
+        </div>
+        <div class="card w-64 h-64 rounded-md border-2 flex flex-col justify-end items-center  my-4">
+          <h5 class="text-2xl font-bold text-gray-600">Cloud Vision</h5>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

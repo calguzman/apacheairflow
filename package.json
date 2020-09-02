@@ -1,0 +1,23 @@
+{
+  "name": "airflowApache",
+  "version": "1.0.0",
+  "description": "Mini Clone AirFlow Apache With TailWindCSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss css/tailwind.css -o public/css/style.css",
+    "dev": "postcss css/tailwind.css -o public/css/style.css --watch"
+  },
+  "keywords": [],
+  "author": "cguzman",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss-cli": "^7.1.2",
+    "tailwindcss": "^1.7.6"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^2.3.0",
+    "cssnano": "^4.1.10"
+  }
+}
